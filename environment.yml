@@ -1,0 +1,12 @@
+name: qe
+dependencies:
+  - pip
+  - python=3.8
+  - conda
+  - pip:
+    - joblib==1.1.0
+    - numpy==1.22.2
+    - scikit-learn==1.0.2
+    - scipy==1.8.0
+prefix: /home/marina/miniconda3/envs/qe
+
